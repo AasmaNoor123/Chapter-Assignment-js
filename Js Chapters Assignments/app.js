@@ -65,24 +65,38 @@ let string = alert("---------ஜ۩۞۩ஜ---------");
 
 //Variables of Numbers:
 //Assignment : 3 (Chapter : 3)
-//Q : 1
 
+//Q : 1
+//1. Declare a variable called age & assign to it your age. Show
+
+your age in an alert box.
 // let age = 17;
 // alert('I am '+ age + ' old');
 
 // //Q : 2
-
+//2. Declare & initialize a variable to keep track of how many times a visitor has visited a web page. Show his/her number of visits on your web page. For example: “You have visited this site N times”.
 // let data = prompt(' How many time you have visited this side ');
 // document.write('you have visited ' +  data +" time this side");
 
 // //Q : 3
 // //(typeof) kisi bhi cheez ki data type check kr ky bta deta hai ky (number )hai ya (string).
-
+//3. Declare a variable called birthYear & assign to it your birth year. Show the following message in your browser:
 // let birth = 2007;
 // document.write('My birth year is '+ birth +'<br>');
 // document.write('Data type of my declared variable is  '+ typeof(birth));
 
 //Q : 4
+
+//4. A visitor visits an online clothing store www.xyzClothing.com . Write a script to store in variables
+//the following information:
+
+//a. Visitor’s name
+
+//b. Product title
+
+//c. Quantity i.e. how many products a visitor wants to order Show the following message in your browser: “John
+//Doe ordered 5 T-shirt(s) on XYZ Clothing store”.
+  
 let visitor = prompt('Hello Visitor, Enter your name... ');
 let product = prompt('What do you want to buy...');
 let quantity = prompt('How many?');
