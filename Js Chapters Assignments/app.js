@@ -105,32 +105,6 @@
 
 
 
-
-
-// ch : 5
-// MATH EXPRESSIONS 
-/* Write a program that take two numbers & add them in a 
-new variable. Show the result in your browser. */
-
-// let num1 = 6;
-// let num2 = 2;
-// let sum = num1 + num2;
-//  document.write ( 'The sum of 6 + 2 =  ',sum);
-
-
-// 2. Repeat task1 for subtraction, multiplication, division & modulus.
-  
-//   let num1 = 6;
-//   let num2 = 2;
-//   document.write ( 'The sum of 6 - 2 =  ', num1 - num2 , '<br>');
-//   document.write ( 'The sum of 6 * 2 =  ', num1 * num2 , '<br>');
-//   document.write ( 'The sum of 6 / 2 =  ', num1 / num2 , '<br>');
-//   document.write ( 'The sum of 6 % 2 =  ', num1 % num2 , '<br>');
-
-
-// Do the following using JS Mathematic Expressions 
-
-
 //Assignment :4
 //Ch : 4
 
@@ -176,7 +150,7 @@ new variable. Show the result in your browser. */
 // b)  Variable names can only contain ______, ______, 
 // ______ and ______. 
 
-let a = 'underscore'; 'Digit'; 'Doller'; 'Letter';
+// let a = 'underscore'; 'Digit'; 'Doller'; 'Letter';
 
 // For example $my_1stVariable 
 
@@ -189,7 +163,29 @@ let example = "For example $my_1stVariable";
 // e) Variable names should not be JS _________   
 
 
- 
+
+ // ch : 5
+// MATH EXPRESSIONS 
+/* Write a program that take two numbers & add them in a 
+new variable. Show the result in your browser. */
+
+// let num1 = 6;
+// let num2 = 2;
+// let sum = num1 + num2;
+//  document.write ( 'The sum of 6 + 2 =  ',sum);
+
+
+// 2. Repeat task1 for subtraction, multiplication, division & modulus.
+  
+//   let num1 = 6;
+//   let num2 = 2;
+//   document.write ( 'The sum of 6 - 2 =  ', num1 - num2 , '<br>');
+//   document.write ( 'The sum of 6 * 2 =  ', num1 * num2 , '<br>');
+//   document.write ( 'The sum of 6 / 2 =  ', num1 / num2 , '<br>');
+//   document.write ( 'The sum of 6 % 2 =  ', num1 % num2 , '<br>');
+
+
+// Do the following using JS Mathematic Expressions 
 
 
 
