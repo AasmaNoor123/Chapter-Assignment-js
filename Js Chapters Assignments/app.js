@@ -131,7 +131,65 @@ new variable. Show the result in your browser. */
 // Do the following using JS Mathematic Expressions 
 
 
+//Assignment :4
+//Ch : 4
 
+//1: Declare 3 variables in one statement. 
+
+ //let a = 10, b = 20, c = 30;
+ 
+ //2: Declare 5 legal & 5 illegal variable names. 
+ // Legal Variables names :
+ 
+// let _$;
+// let camelCase;
+ //let number;
+ //let total = _$ + camelCase + numbe;
+// let age ; 
+ 
+ //Illegal Variable names :
+ 
+// 1stVariable   //(starts with a number)
+// my name       //(contains a space)
+
+//total-amount.  //(contains a hyphen)
+
+//phone#         //(contains a special character)
+
+//class.         //(reserved keyword)
+ 
+ // Ex : 2 (Illegal variables)
+ 
+//let  _9w;
+
+// let product cost = 3.45;
+// let price23a% ;
+// let 1st_name ="kelvin";
+// let this is a variable = "john";
+// let n*um = 15;
+
+// . Display this in your browser 
+// a)  A heading stating “Rules for naming JS variables” 
+
+//document.write("<h3>Rules for Naming JavaScript Variables۔۔۔💫</h3>");
+
+// b)  Variable names can only contain ______, ______, 
+// ______ and ______. 
+
+let a = 'underscore'; 'Digit'; 'Doller'; 'Letter';
+
+// For example $my_1stVariable 
+
+let example = "For example $my_1stVariable";
+ document.write(" a) Variable names can only contain " + a +"<br>" , example , "<br>");
+
+// c) Variables must begin with a ______, ______ or 
+// _____. For example $name, _name or name 
+// d) Variable names are case _________ 
+// e) Variable names should not be JS _________   
+
+
+ 
 
 
 
