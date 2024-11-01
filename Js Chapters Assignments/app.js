@@ -150,19 +150,36 @@
 // b)  Variable names can only contain ______, ______, 
 // ______ and ______. 
 
-// let a = 'underscore'; 'Digit'; 'Doller'; 'Letter';
+let a = 'underscore'; 'Digit'; 'Doller'; 'Letter';
+
+//Ex : 2
+
+//jo last mai re declear krwayegy wo show hoga browser pr.
+// let a = 'underscore'; a='Digit'; a= 'Doller'; a= 'Letter';
 
 // For example $my_1stVariable 
 
 let example = "For example $my_1stVariable";
- document.write(" a) Variable names can only contain " + a +"<br>" , example , "<br>");
+ document.write(" a) Variable names can only contain " +'<b>'+ a +  '</b>'+"<br>" , example , "<br>",'<br>');
 
 // c) Variables must begin with a ______, ______ or 
-// _____. For example $name, _name or name 
+
+let b = 'undersore'; 'Digit'; 'Doller'; 'letter';
+
+// _____. For example $name, _name or name.
+
+let example2 = "For example $my_1stVariable";
+document.write('b) Variables must being with a '+'<b>'+ b + '</b>' ,'<br>','for example  $name, _name or name.','<br> ','<br>');
+
 // d) Variable names are case _________ 
+
+let c = 'Case Sensitive.'
+document.write('c) Variable names are '+ '<b>'+c + '</b>','<br>','<br>');
+
 // e) Variable names should not be JS _________   
 
-
+let  d = 'Reserver Words';
+document.write("d) Variable names should not be JavaScript " +'<b>'+ d +'</b>', '<br>');
 
  // ch : 5
 // MATH EXPRESSIONS 
@@ -185,8 +202,7 @@ new variable. Show the result in your browser. */
 //   document.write ( 'The sum of 6 % 2 =  ', num1 % num2 , '<br>');
 
 
-// Do the following using JS Mathematic Expressions 
-
+// 3.Do the following using JS Mathematic Expressions 
 
 
 
