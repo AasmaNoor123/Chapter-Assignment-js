@@ -150,36 +150,37 @@
 // b)  Variable names can only contain ______, ______, 
 // ______ and ______. 
 
-let a = 'underscore'; 'Digit'; 'Doller'; 'Letter';
+// let a = 'underscore'; 'Digit'; 'Doller'; 'Letter';
 
-//Ex : 2
+// //Ex : 2
 
-//jo last mai re declear krwayegy wo show hoga browser pr.
-// let a = 'underscore'; a='Digit'; a= 'Doller'; a= 'Letter';
+// //jo last mai re declear krwayegy wo show hoga browser pr.
+// // let a = 'underscore'; a='Digit'; a= 'Doller'; a= 'Letter';
 
-// For example $my_1stVariable 
+// // For example $my_1stVariable 
 
-let example = "For example $my_1stVariable";
- document.write(" a) Variable names can only contain " +'<b>'+ a +  '</b>'+"<br>" , example , "<br>",'<br>');
+// let example = "For example $my_1stVariable";
+//  document.write(" a) Variable names can only contain " +'<b>'+ a +  '</b>'+"<br>" , example , "<br>",'<br>');
 
-// c) Variables must begin with a ______, ______ or 
+// // c) Variables must begin with a ______, ______ or 
 
-let b = 'undersore'; 'Digit'; 'Doller'; 'letter';
+// let b = 'undersore'; 'Digit'; 'Doller'; 'letter';
 
-// _____. For example $name, _name or name.
+// // _____. For example $name, _name or name.
 
-let example2 = "For example $my_1stVariable";
-document.write('b) Variables must being with a '+'<b>'+ b + '</b>' ,'<br>','for example  $name, _name or name.','<br> ','<br>');
+// let example2 = "For example $my_1stVariable";
+// document.write('b) Variables must being with a '+'<b>'+ b + '</b>' ,'<br>','for example  $name, _name or name.','<br> ','<br>');
 
-// d) Variable names are case _________ 
+// // d) Variable names are case _________ 
 
-let c = 'Case Sensitive.'
-document.write('c) Variable names are '+ '<b>'+c + '</b>','<br>','<br>');
+// let c = 'Case Sensitive.'
+// document.write('c) Variable names are '+ '<b>'+c + '</b>','<br>','<br>');
 
-// e) Variable names should not be JS _________   
+// // e) Variable names should not be JS _________   
 
-let  d = 'Reserver Words';
-document.write("d) Variable names should not be JavaScript " +'<b>'+ d +'</b>', '<br>');
+// let  d = 'Reserver Words';
+// document.write("d) Variable names should not be JavaScript " +'<b>'+ d +'</b>', '<br>');
+
 
  // ch : 5
 // MATH EXPRESSIONS 
@@ -203,9 +204,172 @@ new variable. Show the result in your browser. */
 
 
 // 3.Do the following using JS Mathematic Expressions 
+// a. Declare a variable.
+// let num;
+
+// //b.Display value after declaration
+//  document.write("Value after variable declaration is: " + num + "<br>");
+
+ //c. Initialize variable with some number.
+ num = 5;
+
+ //d. Show the value of variable in your browser like "Initial value : "
+document.write('Initial value : ' +num +'<br>');
+
+ //e.Increment the variable.
+num ++;
+
+//f. Show the value of variable in your browser like "Value after increment is :6 "
+ document.write("Value after increment is: " + num + "<br>");
+
+ //g.Add 7 to the variable.
+ num += 7;
+
+ //h. Show the value of variable in your browser like "Value after addition is : 13
+  document.write("Value after addition is: " + num + "<br>");
+
+//i.Decrement variable
+ num--;
+
+//j. Show the value of variable in your browser like "Value after addition is : 12
+ document.write("Value after decrement is: " + num + "<br>");
+
+//k.Display remainder after division by 3
+ document.write("The remainder is: " + (num % 3)+'<br>');
+
+//L.Cost of one movie ticket is 600 PKR. Write a script to 
+// store 
+// ticket price in a variable & calculate the cost of buying 5 
+// tickets 
+// to a movie. Example output:
+
+ let cost = 600;
+ let ticket = 5;
+ document.write("Total cost to buy 5 tickets to a movie is ", cost*ticket, "RS",'<br>');
+
+//5.Write a script to display multiplication table of any number in your browser.
+//  let table = prompt("enter table number")
+//  let range = prompt("enter table range")
+//  for( let  i=1; i<=range; i++){
+//  document.write(table + " x " + i + ' = ' + table*i ,"<br>")
+//  }
+
+//6.Celsius to Fahrenheit conversion
+//  let celsius = 25;
+//  let fahrenheit = (celsius * 9/5) + 32;
+// document.write(celsius,"°C is" , fahrenheit,"°F", "<br>");
+
+// // Fahrenheit to Celsius conversion
+//  let fahrenheit2 = 70;
+//  let celsius2 = (fahrenheit2 - 32) * 5/9;
+//  document.write(fahrenheit2, "°F is", celsius2, "°C");
+
+/* Write a program to implement checkout process of a 
+shopping cart system for an e-commerce website. Store 
+the following in variables 
+a. Price of item 1 
+b. Price of item 2 
+c. Ordered quantity of item 1 
+d. Ordered Quantity of item 2 
+e. Shipping charges 
+
+Compute the total cost & show the receipt in your browser*/
+// let item1 = 650;
+// let item2 = 100;
+// let quantity1 = 3;
+// let quantity2 = 7;
+// let charges = item2;
+// document.write("<h1>Shopping Cart</h1>");
+// document.write("The price of item 1 is ", item1 , "<br>");
+// document.write("quantity of item 1 is ", quantity1 , "<br>");
+// document.write("The price of item 2 is ", item2 , "<br>");
+// document.write("quantity of item 2 is ", quantity2 , "<br>");
+// document.write("The shipping charges is ", charges , "<br>", "<br>");
+// document.write("Total cost of your order is ", item1*quantity1+item2*quantity2+charges , "<br>");
+
+// Store total marks & marks obtained by a student in 2 
+// variables. Compute the percentage & show the result in 
+// your browser 
+// let totalMarks= 980;
+// let marksObtained = 804;
+// document.write("<h1>", "MARKSHEET" , "</h1>" , "<br>")
+// document.write("Total Marks = ", totalMarks , "<br>", "Obtained Marks = ", marksObtained , "<br>", "Percentage = " , marksObtained/totalMarks)
 
 
+/* Assume we have 10 US dollars & 25 Saudi Riyals. Write a 
+script to convert the total currency to Pakistani Rupees. 
+Perform all calculations in a single expression. 
+(Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee 
+and 1 Saudi Riyal = 28 Pakistani Rupee) */
 
+// let dollar = 104.80;
+// let riyal = 28;
+// let currency = 10*dollar + 25*riyal;
+// document.write("<h1> CURRENCY IN PKR","</h1>")
+// document.write("Total Currency in PKR is: " , currency , "<br>"); 
+
+
+/*  Write a program to initialize a variable with some 
+number and do arithmetic in following sequence: 
+a. Add 5 
+b. Multiply by 10 
+c. Divide the result by 2 
+Perform all calculations in a single expression */
+// let num = 5;
+// document.write(num+5,"<br>",num*10,"<br>",num/2,"<br>");
+
+
+/* The Age Calculator: Forgot how old someone is? 
+Calculate it! 
+a. Store the current year in a variable. 
+b. Store their birth year in a variable. 
+c. Calculate their 2 possible ages based on the stored 
+values. */
+// let currentYear = 2024;
+// let birthYear = 2004;
+// let age = currentYear - birthYear;
+// document.write("<h1>", "Age Calculation" , "</h1>");
+// document.write("current year is ", currentYear, "<br>" , "Birth Year is " , birthYear, "<br>", "your Age is ", age , "<br>") ;
+
+
+/* 12. The Geometrizer: Calculate properties of a circle. 
+a. Store a radius into a variable.  
+b. Calculate the circumference based on the radius, and 
+output “The circumference is NN”. 
+(Hint : Circumference of a circle = 2 π r , π = 3.142) 
+Calculate the area based on the radius, and output “The 
+area is NN”. (Hint : Area of a circle = π r2, π = 3.142) */
+//  let r = 20;
+//  let π = 3.142;
+//  let c = 2*π*r;
+//  document.write("<h1>","The Geometrizer","</h1>");
+//  document.write("Radius of a circle is ", r, "<br>");
+//  document.write("The circumference is ", π,"<br>");
+//  document.write("The area of circle is ", π*r**2,"<br>" );
+
+
+/*  The Lifetime Supply Calculator: Ever wonder how 
+much a “lifetime supply” of your favorite snack is? 
+Wonder no more. 
+a. Store your favorite snack into a variable 
+b. Store your current age into a variable. 
+c. Store a maximum age into a variable. 
+d. Store an estimated amount per day (as a number). 
+e. Calculate how many would you eat total for the rest of 
+your life. 
+Output the result to the screen like so: “You will need 
+NNNN to last you until the ripe old age of NN”. */
+// let supply = " The Lifetime Supply Calculator "
+// let favSnack = "Chocolate Chip";
+// let age =15;
+// let maxAge = 65;
+// let amount = 3;
+// document.write("<h1>", supply,"</h1>");
+// document.write("Favourite snacks: " , favSnack, "<br>" , "current age " , age , "<br>" , "Estimate Maximum age " , maxAge , "<br>" , "The amount of snacks per day " , amount , "<br>", "You will need " , maxAge - age * 3 , "chocolate chips to last you until the ripe old age of 65");
+// doucument.write("Curren age ", age , "<br>");
+// document.write("Estimated Maximum Age ", maxAge , "<br>");
+// document.write("The amount of snacks pert day ; " , amount , "<br>");
+// document.write("You will need ", maxAge - age * 3 , "chocolate chips to last youuntil the ripe old age of ", maxAge); 
 
 
 
