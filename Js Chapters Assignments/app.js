@@ -211,31 +211,31 @@ new variable. Show the result in your browser. */
 //  document.write("Value after variable declaration is: " + num + "<br>");
 
  //c. Initialize variable with some number.
- num = 5;
+//  num = 5;
 
- //d. Show the value of variable in your browser like "Initial value : "
-document.write('Initial value : ' +num +'<br>');
+//  //d. Show the value of variable in your browser like "Initial value : "
+// document.write('Initial value : ' +num +'<br>');
 
- //e.Increment the variable.
-num ++;
+//  //e.Increment the variable.
+// num ++;
 
-//f. Show the value of variable in your browser like "Value after increment is :6 "
- document.write("Value after increment is: " + num + "<br>");
+// //f. Show the value of variable in your browser like "Value after increment is :6 "
+//  document.write("Value after increment is: " + num + "<br>");
 
- //g.Add 7 to the variable.
- num += 7;
+//  //g.Add 7 to the variable.
+//  num += 7;
 
- //h. Show the value of variable in your browser like "Value after addition is : 13
-  document.write("Value after addition is: " + num + "<br>");
+//  //h. Show the value of variable in your browser like "Value after addition is : 13
+//   document.write("Value after addition is: " + num + "<br>");
 
-//i.Decrement variable
- num--;
+// //i.Decrement variable
+//  num--;
 
-//j. Show the value of variable in your browser like "Value after addition is : 12
- document.write("Value after decrement is: " + num + "<br>");
+// //j. Show the value of variable in your browser like "Value after addition is : 12
+//  document.write("Value after decrement is: " + num + "<br>");
 
-//k.Display remainder after division by 3
- document.write("The remainder is: " + (num % 3)+'<br>');
+// //k.Display remainder after division by 3
+//  document.write("The remainder is: " + (num % 3)+'<br>');
 
 //L.Cost of one movie ticket is 600 PKR. Write a script to 
 // store 
@@ -243,9 +243,9 @@ num ++;
 // tickets 
 // to a movie. Example output:
 
- let cost = 600;
- let ticket = 5;
- document.write("Total cost to buy 5 tickets to a movie is ", cost*ticket, "RS",'<br>');
+//  let cost = 600;
+//  let ticket = 5;
+//  document.write("Total cost to buy 5 tickets to a movie is ", cost*ticket, "RS",'<br>');
 
 //5.Write a script to display multiplication table of any number in your browser.
 //  let table = prompt("enter table number")
@@ -264,7 +264,7 @@ num ++;
 //  let celsius2 = (fahrenheit2 - 32) * 5/9;
 //  document.write(fahrenheit2, "°F is", celsius2, "°C");
 
-/* Write a program to implement checkout process of a 
+/*7. Write a program to implement checkout process of a 
 shopping cart system for an e-commerce website. Store 
 the following in variables 
 a. Price of item 1 
@@ -272,8 +272,8 @@ b. Price of item 2
 c. Ordered quantity of item 1 
 d. Ordered Quantity of item 2 
 e. Shipping charges 
-
 Compute the total cost & show the receipt in your browser*/
+
 // let item1 = 650;
 // let item2 = 100;
 // let quantity1 = 3;
@@ -287,16 +287,16 @@ Compute the total cost & show the receipt in your browser*/
 // document.write("The shipping charges is ", charges , "<br>", "<br>");
 // document.write("Total cost of your order is ", item1*quantity1+item2*quantity2+charges , "<br>");
 
-// Store total marks & marks obtained by a student in 2 
+//8.Store total marks & marks obtained by a student in 2 
 // variables. Compute the percentage & show the result in 
-// your browser 
+// your browser
+
 // let totalMarks= 980;
 // let marksObtained = 804;
 // document.write("<h1>", "MARKSHEET" , "</h1>" , "<br>")
-// document.write("Total Marks = ", totalMarks , "<br>", "Obtained Marks = ", marksObtained , "<br>", "Percentage = " , marksObtained/totalMarks)
+// document.write("Total Marks = ", totalMarks , "<br>", "Obtained Marks = ", marksObtained , "<br>", "Percentage = " , marksObtained/totalMarks*100, ' %');
 
-
-/* Assume we have 10 US dollars & 25 Saudi Riyals. Write a 
+/*9.Assume we have 10 US dollars & 25 Saudi Riyals. Write a 
 script to convert the total currency to Pakistani Rupees. 
 Perform all calculations in a single expression. 
 (Exchange rates : 1 US Dollar = 104.80 Pakistani Rupee 
@@ -309,27 +309,29 @@ and 1 Saudi Riyal = 28 Pakistani Rupee) */
 // document.write("Total Currency in PKR is: " , currency , "<br>"); 
 
 
-/*  Write a program to initialize a variable with some 
+/*10.Write a program to initialize a variable with some 
 number and do arithmetic in following sequence: 
 a. Add 5 
 b. Multiply by 10 
 c. Divide the result by 2 
 Perform all calculations in a single expression */
+
 // let num = 5;
 // document.write(num+5,"<br>",num*10,"<br>",num/2,"<br>");
 
 
-/* The Age Calculator: Forgot how old someone is? 
-Calculate it! 
-a. Store the current year in a variable. 
-b. Store their birth year in a variable. 
-c. Calculate their 2 possible ages based on the stored 
-values. */
+//11. The Age Calculator: Forgot how old someone is? 
+// Calculate it! 
+// a. Store the current year in a variable. 
+// b. Store their birth year in a variable. 
+// c. Calculate their 2 possible ages based on the stored 
+// values. 
+
 // let currentYear = 2024;
-// let birthYear = 2004;
+// let birthYear = 2007;
 // let age = currentYear - birthYear;
 // document.write("<h1>", "Age Calculation" , "</h1>");
-// document.write("current year is ", currentYear, "<br>" , "Birth Year is " , birthYear, "<br>", "your Age is ", age , "<br>") ;
+// document.write("current year is = ", currentYear, "<br>" , "Birth Year is = " , birthYear, "<br>", "your Age is = ", age , "<br>") ;
 
 
 /* 12. The Geometrizer: Calculate properties of a circle. 
@@ -339,16 +341,23 @@ output “The circumference is NN”.
 (Hint : Circumference of a circle = 2 π r , π = 3.142) 
 Calculate the area based on the radius, and output “The 
 area is NN”. (Hint : Area of a circle = π r2, π = 3.142) */
-//  let r = 20;
-//  let π = 3.142;
-//  let c = 2*π*r;
-//  document.write("<h1>","The Geometrizer","</h1>");
-//  document.write("Radius of a circle is ", r, "<br>");
-//  document.write("The circumference is ", π,"<br>");
-//  document.write("The area of circle is ", π*r**2,"<br>" );
 
+// Step 1: Store a radius into a variable
+ let r = 20;
+ 
+// Step 2: Calculate the Circumference
+ let π = 3.142;
+ // Step 3: Calculate the Area
+ let c = 2*π*r; //A= 2π(square)
 
-/*  The Lifetime Supply Calculator: Ever wonder how 
+ 
+// Step 4: Output the results using document.write()
+ document.write("<h1>","The Geometrizer :","</h1>");
+ document.write("Radius of a circle is =  ", r, "<br>");
+ document.write("The circumference is = ", π,"<br>");
+ document.write("The area of circle is = ", π*r**2,"<br>" );//A= 2π(square)
+
+/*13.The Lifetime Supply Calculator: Ever wonder how 
 much a “lifetime supply” of your favorite snack is? 
 Wonder no more. 
 a. Store your favorite snack into a variable 
@@ -359,6 +368,7 @@ e. Calculate how many would you eat total for the rest of
 your life. 
 Output the result to the screen like so: “You will need 
 NNNN to last you until the ripe old age of NN”. */
+
 // let supply = " The Lifetime Supply Calculator "
 // let favSnack = "Chocolate Chip";
 // let age =15;
@@ -369,7 +379,9 @@ NNNN to last you until the ripe old age of NN”. */
 // doucument.write("Curren age ", age , "<br>");
 // document.write("Estimated Maximum Age ", maxAge , "<br>");
 // document.write("The amount of snacks pert day ; " , amount , "<br>");
-// document.write("You will need ", maxAge - age * 3 , "chocolate chips to last youuntil the ripe old age of ", maxAge); 
+// document.write("You will need ", maxAge + age * 3 , "chocolate chips to last youuntil the ripe old age of ", maxAge); 
+
+
 
 
 
