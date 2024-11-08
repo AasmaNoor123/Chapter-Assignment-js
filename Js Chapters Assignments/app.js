@@ -343,19 +343,19 @@ Calculate the area based on the radius, and output “The
 area is NN”. (Hint : Area of a circle = π r2, π = 3.142) */
 
 // Step 1: Store a radius into a variable
- let r = 20;
+//  let r = 20;
  
-// Step 2: Calculate the Circumference
- let π = 3.142;
- // Step 3: Calculate the Area
- let c = 2*π*r; //A= 2π(square)
+// // Step 2: Calculate the Circumference
+//  let π = 3.142;
+//  // Step 3: Calculate the Area
+//  let c = 2*π*r; //A= 2π(square)
 
  
 // Step 4: Output the results using document.write()
- document.write("<h1>","The Geometrizer :","</h1>");
- document.write("Radius of a circle is =  ", r, "<br>");
- document.write("The circumference is = ", π,"<br>");
- document.write("The area of circle is = ", π*r**2,"<br>" );//A= 2π(square)
+//  document.write("<h1>","The Geometrizer :","</h1>");
+//  document.write("Radius of a circle is =  ", r, "<br>");
+//  document.write("The circumference is = ", π,"<br>");
+//  document.write("The area of circle is = ", π*r**2,"<br>" );//A= 2π(square)
 
 /*13.The Lifetime Supply Calculator: Ever wonder how 
 much a “lifetime supply” of your favorite snack is? 
@@ -374,15 +374,17 @@ NNNN to last you until the ripe old age of NN”. */
 // let age =15;
 // let maxAge = 65;
 // let amount = 3;
-// document.write("<h1>", supply,"</h1>");
-// document.write("Favourite snacks: " , favSnack, "<br>" , "current age " , age , "<br>" , "Estimate Maximum age " , maxAge , "<br>" , "The amount of snacks per day " , amount , "<br>", "You will need " , maxAge - age * 3 , "chocolate chips to last you until the ripe old age of 65");
-// doucument.write("Curren age ", age , "<br>");
-// document.write("Estimated Maximum Age ", maxAge , "<br>");
-// document.write("The amount of snacks pert day ; " , amount , "<br>");
-// document.write("You will need ", maxAge + age * 3 , "chocolate chips to last youuntil the ripe old age of ", maxAge); 
+// let totalSnacksNeeded = (maxAge - age) * amount;
+// document.write("<h1>", supply, "</h1>");
+// document.write("Favourite snack: " , favSnack, "<br>");
+// document.write("Current age: " , age, "<br>");
+// document.write("Estimated Maximum age: " , maxAge, "<br>");
+// document.write("Amount of snacks per day: " , amount, "<br>");
+// document.write("You will need " , totalSnacksNeeded , " chocolate chips to last you until the ripe old age of " , maxAge);
 
 
 
+//Ch : 6
 
 
 
